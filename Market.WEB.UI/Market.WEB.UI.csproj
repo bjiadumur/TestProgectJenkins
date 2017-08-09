@@ -325,6 +325,7 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <PropertyGroup>
+    <MSBuildExtensionsPath32>"C:\Program Files (x86)"</MSBuildExtensionsPath32>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
   </PropertyGroup>
